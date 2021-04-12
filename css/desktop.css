@@ -1,0 +1,137 @@
+.header__logo {
+  width: 150px;
+}
+
+.header__btn {
+  width: 150px;
+}
+
+.contenedor-home-textos h1 {
+  font-size: 3.5rem;
+}
+
+.contenedor-precios {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+}
+
+.contenedor-charla {
+  margin-top: 120px;
+  margin-bottom: 110px;
+}
+
+.contenedor-charla::before {
+  content: "";
+  position: absolute;
+  background-image: url(../images/bg-section-top-desktop-1.svg);
+  background-size: cover;
+  width: 100%;
+  height: 165px;
+  left: 0;
+  top: -165px;
+}
+
+.contenedor-charla::after {
+  content: "";
+  position: absolute;
+  background-image: url(../images/bg-section-bottom-desktop-1.svg);
+  width: 100%;
+  height: 139px;
+  left: 0;
+  bottom: -139px;
+}
+
+.contenedor-charla-uno-flex {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contenedor-charla-uno-item h2 {
+  margin-bottom: 15px;
+}
+
+.contenedor-charla-uno-item {
+  text-align: left;
+}
+
+.contenedor-charla-dos {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.contenedor-charla-dos-item h2 {
+  margin-bottom: 15px;
+}
+
+.contenedor-charla-tres::before {
+  position: absolute;
+  content: "";
+  background-image: url(../images/bg-section-top-desktop-2.svg);
+  background-size: cover;
+  width: 100%;
+  height: 156px;
+  top: -156px;
+}
+
+.contenedor-charla-tres::after {
+  position: absolute;
+  content: "";
+  background-image: url(../images/bg-section-bottom-desktop-2.svg);
+  width: 100%;
+  height: 139px;
+  bottom: -139px;
+  left: 0;
+}
+
+.contenedor-charla-tres-flex {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.contenedor-charla-tres-item {
+  text-align: left;
+}
+
+.contenedor-charla-tres-item h2 {
+  margin-bottom: 15px;
+}
+
+.footer-flex {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.form {
+  flex-direction: row;
+}
+
+.form .entrada {
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
+.footer-item img {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 158px;
+  top: -158px;
+  left: 0;
+  background-image: url(../images/bg-footer-top-desktop.svg);
+}
+
+.seccion-ready {
+  margin-bottom: 80px;
+}
